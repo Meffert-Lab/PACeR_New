@@ -4,8 +4,7 @@ Once in the directory where you would like the reference files (XX MB) to be ins
 
 `git clone https://github.com/Meffert-Lab/PACeR_New.git`
 
-Next, download and configure the larger reference files (XX GB) by running
->Requires [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+Next, download and configure the larger reference files (XX GB) by running (requires [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html))
 
 `bash /PACeR_New/Installation.sh`
 
