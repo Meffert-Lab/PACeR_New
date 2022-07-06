@@ -13,7 +13,7 @@
 
 Once in the directory where you would like the PACeR files (XX MB) to be installed, run 
 
-```git clone https://github.com/Meffert-Lab/PACeR_New.git```
+    git clone https://github.com/Meffert-Lab/PACeR_New.git
 
 Next, download and configure the larger reference files (XX GB) by running (requires [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html))
 
