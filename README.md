@@ -12,7 +12,7 @@ Next, download and configure the larger reference files (XX GB) by running (requ
 <br>
 <br>
 | File Name                     | Description |
-| ----------- | ----------- |
+| ---------- | ------------ |
 | environment.yml   | YML file for creating Conda environment with packages required for running PACeR.        |
 | Installation.sh      | Shell script for downloading and configuring reference files.        |
 | PACeR.sh      | Shell script for running PACeR.        |
