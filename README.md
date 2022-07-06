@@ -26,13 +26,13 @@ Ensure data files are in the following configuration
         │───PACeR
         │         Environment.yml
         │         Installation.sh
+        │         sncRNA.fasta
         │         PACeR.sh
         │         PACeR_CLEAR-CLIP.sh
         │         PeakCalling_Total.sh
         │         PeakCalling_Subset.sh
         │  
-        │───files
-        │    │   
+        │───files 
         │    │       
         │    │
         │    └───sample1
