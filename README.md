@@ -4,6 +4,10 @@ Once in the directory where you would like the reference files to be installed (
 
 `git clone https://github.com/Meffert-Lab/PACeR_New.git`
 
+Next, download and configure the reference files (XX GB) by running
+
+`bash /PACeR_New/Installation.sh'
+
 <br>
 <br>
 
