@@ -47,4 +47,4 @@ Ensure data files are in the following configuration
 
 Execute PACeR by running
 
-`bash PACeR.sh'
+    bash PACeR.sh
