@@ -1,6 +1,6 @@
 # PACeR: a bioinformatic pipeline for the analysis of sncRNA-target RNA chimeras
 
-Once in the directory where you would like the reference files to be installed, run 
+Once in the directory where you would like the reference files to be installed (XX MB), run 
 
 `git clone https://github.com/Meffert-Lab/PACeR_New.git`
 
