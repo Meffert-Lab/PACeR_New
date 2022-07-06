@@ -11,7 +11,7 @@ Next, download and configure the larger reference files (XX GB) by running (requ
 <br>
 | File Name                     | Description |
 | ----------- | ----------- |
-| 1_Pipeline_Setup_Tips.sh      | Instructions for installing VirtualBox and Ubuntu, creating a shared folder between your computer and VirtualBox, installing Miniconda, and setting up a Miniconda environment with the requisite packages from running PACeR.       |
+| Installation.sh      | Shell script for downloading and configuring reference files.        |
 | environment.yml   | File for configuring the Miniconda environment with the requisite packages from running PACeR.        |
 | 2_Reference_File_Configuration.sh      | Script for downloading and configuring the sncRNA reference list and the reference genome.       |
 | 3_Pipeline.sh   | Script for processing compressed FASTQ files to generate a BAM file containing uniquely aligned reads annotated with the corresponding sncRNA within the read.        |
