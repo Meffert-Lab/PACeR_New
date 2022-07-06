@@ -7,7 +7,8 @@ Once in the directory where you would like the reference files (XX MB) to be ins
 Next, download and configure the larger reference files (XX GB) by running (requires [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html))
 
 `bash /PACeR_New/Installation.sh`
-
+<br>
+<br>
 | File Name                     | Description |
 | ----------- | ----------- |
 | 1_Pipeline_Setup_Tips.sh      | Instructions for installing VirtualBox and Ubuntu, creating a shared folder between your computer and VirtualBox, installing Miniconda, and setting up a Miniconda environment with the requisite packages from running PACeR.       |
