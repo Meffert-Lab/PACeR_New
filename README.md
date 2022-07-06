@@ -4,6 +4,8 @@ Once in the directory where you would like the reference files to be installed, 
 
 `git clone https://github.com/Meffert-Lab/PACeR_New.git`
 
+
+
 | File Name                     | Description |
 | ----------- | ----------- |
 | 1_Pipeline_Setup_Tips.sh      | Instructions for installing VirtualBox and Ubuntu, creating a shared folder between your computer and VirtualBox, installing Miniconda, and setting up a Miniconda environment with the requisite packages from running PACeR.       |
