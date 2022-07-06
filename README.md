@@ -6,7 +6,7 @@ Once in the directory where you would like the reference files to be installed (
 
 Next, download and configure the reference files (XX GB) by running
 
-`bash /PACeR_New/Installation.sh'
+`bash /PACeR_New/Installation.sh`
 
 <br>
 <br>
