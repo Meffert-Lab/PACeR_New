@@ -12,6 +12,10 @@ Next, download and configure the larger reference files (XX GB) by running
 
 <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html" target="_blank">Conda</a>
 
+<a href="http://example.com/" target="_blank">Hello, world!</a>
+
+<a href="http://www.google.com/" target="_blank">Google</a>
+
 <br>
 <br>
 
