@@ -13,6 +13,7 @@ Next, download and configure the larger reference files (XX GB) by running (requ
 | ----------- | ----------- |
 | Installation.sh      | Shell script for downloading and configuring reference files.        |
 | environment.yml   | File for configuring the Miniconda environment with the requisite packages from running PACeR.        |
+| PACeR.sh      | Shell script for running PACeR.        |
 | 2_Reference_File_Configuration.sh      | Script for downloading and configuring the sncRNA reference list and the reference genome.       |
 | 3_Pipeline.sh   | Script for processing compressed FASTQ files to generate a BAM file containing uniquely aligned reads annotated with the corresponding sncRNA within the read.        |
 | 3\*\_Pipeline_for_CLEAR-CLIP.sh   | Script for processing compressed FASTQ files from a previously published dataset ([Moore et al. 2015](https://www.nature.com/articles/ncomms9864)) to generate a BAM file containing uniquely aligned reads annotated with the corresponding sncRNA within the read.        |
