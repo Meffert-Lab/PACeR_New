@@ -33,17 +33,20 @@ Ensure data files are in the following configuration
         │         PeakCalling_Total.sh
         │         PeakCalling_Subset.sh
         │  
-        │───files 
-        │    │       
-        │    │
-        │    └───sample1
-        │    │       sample1.fastq.gz
-        │    │
-        │    └───sample2
-        │    │       sample2.fastq.gz
-        │    │
-        │    └───sample3
-        │            sample3.fastq.gz
+        └───files 
+             │       
+             │
+             └───sample1
+             │       sample1_R1.fastq.gz
+             │       sample1_R2.fastq.gz
+             │
+             └───sample2
+             │       sample2_R1.fastq.gz
+             │       sample2_R2.fastq.gz
+             │
+             └───sample3
+                     sample3_R1.fastq.gz
+                     sample3_R2.fastq.gz
 
 
 Execute PACeR by running
