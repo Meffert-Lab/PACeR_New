@@ -18,5 +18,33 @@ Once in the directory where you would like the PACeR files (XX MB) to be install
 Next, download and configure the larger reference files (XX GB) by running (requires [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html))
 
 `bash /PACeR_New/Installation.sh`
-<br>
-<br>
+
+## Usage
+
+Ensure data files are in the following configuration
+
+        │───PACeR
+        │         Environment.yml
+        │         Installation.sh
+        │         PACeR.sh
+        │         PACeR_CLEAR-CLIP.sh
+        │         PeakCalling_Total.sh
+        │         PeakCalling_Subset.sh
+        │  
+        │───files
+        │    │   
+        │    │       
+        │    │
+        │    └───sample1
+        │    │       sample1.fastq.gz
+        │    │
+        │    └───sample2
+        │    │       sample2.fastq.gz
+        │    │
+        │    └───sample3
+        │            sample3.fastq.gz
+
+
+Execute PACeR by running
+
+`bash PACeR.sh'
