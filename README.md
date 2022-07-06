@@ -8,7 +8,9 @@ Next, download and configure the larger reference files (XX GB) by running
 
 `bash /PACeR_New/Installation.sh`
 
-[Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html){:target="_blank"}
+[Conda](){:target="_blank"}
+
+<a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html" target="_blank">Conda</a>
 
 <br>
 <br>
