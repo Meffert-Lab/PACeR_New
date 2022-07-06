@@ -5,19 +5,9 @@ Once in the directory where you would like the reference files (XX MB) to be ins
 `git clone https://github.com/Meffert-Lab/PACeR_New.git`
 
 Next, download and configure the larger reference files (XX GB) by running
+-*Requires* [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
 
 `bash /PACeR_New/Installation.sh`
-
-[Conda](){:target="_blank"}
-
-<a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html" target="_blank">Conda</a>
-
-<a href="http://example.com/" target="_blank">Hello, world!</a>
-
-<a href="http://www.google.com/" target="_blank">Google</a>
-
-<br>
-<br>
 
 | File Name                     | Description |
 | ----------- | ----------- |
