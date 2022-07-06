@@ -2,7 +2,7 @@
 
 | File Name                     | Description |
 | ------------ | ------------ |
-| Environment.yml   | YML file for creating Conda environment with packages required for running PACeR.        |
+| environment.yml   | YML file for creating Conda environment with packages required for running PACeR.        |
 | Installation.sh      | Shell script for downloading and configuring reference files.        |
 | sevenmer.txt      | Text file containing all possible 7-mer sequences; used for motif finding.        |
 | sixmer.txt      | Text file containing all possible 6-mer sequences; used for motif finding.        |
