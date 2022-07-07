@@ -4,8 +4,6 @@
 | ------------ | ------------ |
 | environment.yml   | YML file for creating Conda environment with packages required for running PACeR.        |
 | Installation.sh      | Shell script for downloading and configuring reference files.        |
-| sevenmer.txt      | Text file containing all possible 7-mer sequences; used for motif finding.        |
-| sixmer.txt      | Text file containing all possible 6-mer sequences; used for motif finding.        |
 | sncRNA.fasta      | FASTA file containing miRNA and tRF sequences from mouse.        |
 | PACeR.sh      | Shell script for running PACeR.        |
 | PACeR_CLEAR-CLIP.sh      | Modified shell script for running PACeR with data from [Moore et al. 2015](https://www.nature.com/articles/ncomms9864).        |
