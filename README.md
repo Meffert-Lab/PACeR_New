@@ -48,6 +48,34 @@ Ensure data files are in the following configuration
                      sample3_R1.fastq.gz
                      sample3_R2.fastq.gz
 
+Modify the following parameters of the `PACeR.sh` shell script
+
+    directory="/media/sf_Ubuntu_Sharing_2022/files/"
+
+    reference_directory="/media/sf_Ubuntu_Sharing_2022/PACeR_New/"
+
+    reference_genome_abbreviation="mm10"
+
+    samples="
+    CS9
+    "
+
+    five_prime_adapter=CTACAGTCCGACGATC
+    three_prime_adapter=TGGAATTCTCGGGTGCCAAGG
+
+    five_prime_barcode_length=4
+    three_prime_barcode_length=2
+
+    minimum_evalue=.05
+    minimum_length=14
+    maximum_mismatch=2
+    maximum_gap=1
+    maximum_gap_if_maximum_mismatch=0
+
+    maximum_sncRNA_start_position=1
+
+    minimum_length_after_sncRNA=15
+
 
 Execute PACeR by running
 
