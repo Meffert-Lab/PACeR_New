@@ -1,8 +1,8 @@
 #! /bin/sh
 
-	cd /media/sf_Ubuntu_Sharing_2022/
+#Assuming PACeR repository was downloaded from Github, change to PACeR directory 
 
-	cd PACeR_New
+	cd PACeR
 
 #Download miRNAs from miRbase
 
