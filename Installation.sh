@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#Prior to running script, ensure you are in the PACeR directory with the other files downloaded from GitHub
+
 #Assuming conda is installed
 
 	conda env create -f environment.yml -n PACeR
