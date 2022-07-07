@@ -1,8 +1,6 @@
 #! /bin/sh
 
-#Assuming PACeR repository was downloaded from Github, change to PACeR directory 
-
-	cd PACeR
+#Prior to running script, ensure you are in the PACeR directory with the other files downloaded from GitHub
 
 #Download miRNAs from miRbase
 
