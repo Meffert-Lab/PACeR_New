@@ -2,7 +2,7 @@
 
 #Prior to running script, ensure you are in the PACeR directory with the other files downloaded from GitHub
 
-#Assuming conda has been downloaded and the PACeR environment created
+#Assuming conda is installed and the PACeR environment has been created
 
 	location=$(conda info | awk '/base environment/' | awk '{print $4}')
 	source ${location}/etc/profile.d/conda.sh
