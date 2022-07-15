@@ -18,7 +18,7 @@ Once in the directory where you would like the PACeR files (XX MB) to be install
 
 Next, download and configure the larger reference files (XX GB) by running (requires [Miniconda](https://docs.conda.io/en/latest/miniconda.html)):
 
-    bash /PACeR_New/Installation.sh
+    bash PACeR_New/Installation.sh
 
 ## Usage
 
