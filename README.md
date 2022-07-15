@@ -4,7 +4,7 @@
 | ------------ | ------------ |
 | environment.yml   | YML file for creating Conda environment with packages required for running PACeR.        |
 | Installation.sh      | Shell script for downloading and configuring reference files.        |
-| sncRNA.fasta      | FASTA file containing miRNA and tRF sequences from mouse.        |
+| miRBase.fasta      | FASTA file containing miRNAs downloaded from [miRBase](https://www.mirbase.org/) (accessed July 15, 2022).        |
 | PACeR.sh      | Shell script for running PACeR.        |
 | PACeR_CLEAR-CLIP.sh      | Modified shell script for running PACeR with data from [Moore et al. 2015](https://www.nature.com/articles/ncomms9864).        |
 | PeakCalling_Total.sh      | Shell script for calling peaks for all sncRNAs from output of `PACeR.sh`.        |
