@@ -31,16 +31,16 @@ genome_species="mm10"
 #"miRNA-" is added to the beginning of each miRNA name to differentiate it from other sncRNA sequences in the reference file
 #Final miRNA name format (example): miRNA-mmu-let-7c-5p
 
-	awk '/^>/ {printf "%s%s ", pfx, $0; pfx="\n"; next} {printf "%s", $0} END {print ""}' miRbase.fasta | \
+	awk '/^>/ {printf "%s%s ", pfx, $0; pfx="\n"; next} {printf "%s", $0} END {print ""}' miRBase.fasta | \
 	grep "${miRBase_species}-" | \
 	awk '{print $1"\n"$6}' | \
 	sed 's/>/>miRNA-/g' \
-	> miRbase_${miRBase_species}.fasta
+	> miRBase_${miRBase_species}.fasta
 
 #Make BLAST database for miRNA list
 
 	makeblastdb \
-	-in miRbase_${miRBase_species}.fasta \
+	-in miRBase_${miRBase_species}.fasta \
 	-dbtype nucl
 
 #Download genome
