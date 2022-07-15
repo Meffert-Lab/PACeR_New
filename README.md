@@ -3,6 +3,7 @@
 | File Name &nbsp;                    | Description |
 | -------------- | ---------- |
 | environment.yml   | YML file for creating Conda environment with packages required for running PACeR.        |
+| hisat2_index_downloads.txt | Text file containing links to HISAT2-indexed genomes of several common model organisms. |
 | reference_installation.sh      | Shell script for downloading and configuring reference files.        |
 | miRBase.fasta      | FASTA file containing miRNAs downloaded from [miRBase](https://www.mirbase.org/) (accessed July 15, 2022).        |
 | PACeR.sh      | Shell script for running PACeR.        |
@@ -20,12 +21,15 @@ Create the Conda environment by running:
 
     conda env create -f PACeR_New/environment.yml -n PACeR
 
-Reference files for common model organisms can be easily configured using their abbreviations:
+Reference files for common model organisms can be easily configured using their abbreviations. Model organisms not listed here will require manual indexing of the reference genome (see `hisat2_index.sh` in Supplemental folder).
 
 | Model Organism | miRBase Abbreviation | Genome Abbreviation |
 | ---------- | ---------- | ---------- |
+| Caenorhabditis elegans (Roundworm) | cel | ce10 |
+| Drosophila melanogaster (Fruit fly) | dme | dm6 |
 | Homo Sapiens (Human) | hsa | hg19 |
-
+| Mus musculus (Mouse) | mmu | mm10 |
+| Rattus norvegicus (Rat) | rno | rn6 |
 
 Modify the following parameters of the `reference_installation.sh` shell script:
 
@@ -45,7 +49,8 @@ Ensure data files are in the following configuration
 
         │───PACeR_New
         │         environment.yml
-        │         installation.sh
+        │         hisat2_index_downloads.txt
+        │         reference_installation.sh
         │         miRBase.fasta
         │         PACeR.sh
         │         PACeR_CLEAR-CLIP.sh
