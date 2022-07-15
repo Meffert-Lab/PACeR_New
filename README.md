@@ -1,7 +1,7 @@
 # PACeR: a bioinformatic pipeline for the analysis of sncRNA-target RNA chimeras
 
 | File Name                     | Description |
-| ------------ | ------------ |
+| -------------- | ---------- |
 | environment.yml   | YML file for creating Conda environment with packages required for running PACeR.        |
 | Installation.sh      | Shell script for downloading and configuring reference files.        |
 | miRBase.fasta      | FASTA file containing miRNAs downloaded from [miRBase](https://www.mirbase.org/) (accessed July 15, 2022).        |
