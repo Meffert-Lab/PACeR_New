@@ -4,8 +4,8 @@
 | -------------- | ---------- |
 | environment.yml   | YML file for creating Conda environment with packages required for running PACeR.        |
 | hisat2_index_downloads.txt | Text file containing links to HISAT2-indexed genomes of several common model organisms. |
-| reference_installation.sh      | Shell script for downloading and configuring reference files.        |
 | miRBase.fasta      | FASTA file containing miRNAs downloaded from [miRBase](https://www.mirbase.org/) (accessed July 15, 2022).        |
+| reference_installation.sh      | Shell script for downloading and configuring reference files.        |
 | PACeR.sh      | Shell script for running PACeR.        |
 | PACeR_CLEAR-CLIP.sh      | Modified shell script for running PACeR with data from [Moore et al. 2015](https://www.nature.com/articles/ncomms9864).        |
 | PeakCalling_Total.sh      | Shell script for calling peaks for all sncRNAs from output of `PACeR.sh`.        |
