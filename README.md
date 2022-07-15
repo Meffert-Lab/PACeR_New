@@ -24,7 +24,7 @@ Next, download and configure the larger reference files (XX GB) by running (requ
 
 Ensure data files are in the following configuration
 
-        │───PACeR
+        │───PACeR_New
         │         Environment.yml
         │         Installation.sh
         │         sncRNA.fasta
