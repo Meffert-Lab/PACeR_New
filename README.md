@@ -16,18 +16,22 @@ Once in the directory where you would like the PACeR files (XX MB) to be install
 
     git clone https://github.com/Meffert-Lab/PACeR_New.git
 
+Creat the Conda environment by running:
+
+    conda env create -f PACeR_New/environment.yml -n PACeR
+
 Next, download and configure the larger reference files (XX GB) by running (requires [Miniconda](https://docs.conda.io/en/latest/miniconda.html)):
 
-    bash PACeR_New/Installation.sh
+    bash PACeR_New/installation.sh
 
 ## Usage
 
 Ensure data files are in the following configuration
 
         │───PACeR_New
-        │         Environment.yml
-        │         Installation.sh
-        │         sncRNA.fasta
+        │         environment.yml
+        │         installation.sh
+        │         miRBase.fasta
         │         PACeR.sh
         │         PACeR_CLEAR-CLIP.sh
         │         PeakCalling_Total.sh
