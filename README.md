@@ -12,11 +12,11 @@
 
 ## Installation
 
-Once in the directory where you would like the PACeR files (XX MB) to be installed, run 
+Once in the directory where you would like the PACeR files (XX MB) to be installed, run:
 
     git clone https://github.com/Meffert-Lab/PACeR_New.git
 
-Next, download and configure the larger reference files (XX GB) by running (requires [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
+Next, download and configure the larger reference files (XX GB) by running (requires [Miniconda](https://docs.conda.io/en/latest/miniconda.html)):
 
     bash /PACeR_New/Installation.sh
 
