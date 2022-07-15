@@ -20,6 +20,13 @@ Create the Conda environment by running:
 
     conda env create -f PACeR_New/environment.yml -n PACeR
 
+Reference files for common model organisms can be easily configured using their abbreviations:
+
+| Model Organism | miRBase Abbreviation | Genome Abbreviation |
+| ---------- | ---------- | ---------- |
+| Homo Sapiens (Human) | hsa | hg19 |
+
+
 Modify the following parameters of the `reference_installation.sh` shell script:
 
     reference_directory="/media/sf_Ubuntu_Sharing_2022/PACeR_New/"
