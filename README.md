@@ -3,7 +3,7 @@
 | File Name                     | Description |
 | -------------- | ---------- |
 | environment.yml   | YML file for creating Conda environment with packages required for running PACeR.        |
-| Installation.sh      | Shell script for downloading and configuring reference files.        |
+| reference_installation.sh      | Shell script for downloading and configuring reference files.        |
 | miRBase.fasta      | FASTA file containing miRNAs downloaded from [miRBase](https://www.mirbase.org/) (accessed July 15, 2022).        |
 | PACeR.sh      | Shell script for running PACeR.        |
 | PACeR_CLEAR-CLIP.sh      | Modified shell script for running PACeR with data from [Moore et al. 2015](https://www.nature.com/articles/ncomms9864).        |
@@ -16,9 +16,17 @@ Once in the directory where you would like the PACeR files (XX MB) to be install
 
     git clone https://github.com/Meffert-Lab/PACeR_New.git
 
-Creat the Conda environment by running:
+Create the Conda environment by running:
 
     conda env create -f PACeR_New/environment.yml -n PACeR
+
+Modify the following parameters of the `reference_installation.sh` shell script
+
+    reference_directory="/media/sf_Ubuntu_Sharing_2022/PACeR_New/"
+
+    miRBase_species="mmu"
+    
+    genome_species="mm10"
 
 Next, download and configure the larger reference files (XX GB) by running (requires [Miniconda](https://docs.conda.io/en/latest/miniconda.html)):
 
