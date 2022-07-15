@@ -1,6 +1,6 @@
 # PACeR: a bioinformatic pipeline for the analysis of sncRNA-target RNA chimeras
 
-| File Name                     | Description |
+| File Name &nbsp;                    | Description |
 | -------------- | ---------- |
 | environment.yml   | YML file for creating Conda environment with packages required for running PACeR.        |
 | reference_installation.sh      | Shell script for downloading and configuring reference files.        |
@@ -20,7 +20,7 @@ Create the Conda environment by running:
 
     conda env create -f PACeR_New/environment.yml -n PACeR
 
-Modify the following parameters of the `reference_installation.sh` shell script
+Modify the following parameters of the `reference_installation.sh` shell script:
 
     reference_directory="/media/sf_Ubuntu_Sharing_2022/PACeR_New/"
 
