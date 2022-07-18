@@ -11,7 +11,7 @@
 | PeakCalling_Total.sh      | Shell script for calling peaks for all sncRNAs from output of `PACeR.sh`.        |
 | PeakCalling_Subset.sh      | Shell script for calling peaks for specific sncRNAs or sncRNA familes from output of `PACeR.sh`.        |
 
-## Installation
+## Installing reference files
 
 Once in the directory where you would like the PACeR files (XX MB) to be installed, run:
 
