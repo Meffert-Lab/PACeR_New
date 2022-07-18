@@ -31,11 +31,13 @@ Reference files for common model organisms can be easily configured using their 
 | Mus musculus (Mouse) | mmu | mm10 |
 | Rattus norvegicus (Rat) | rno | rn6 |
 
-Download and configure the larger reference files (requires [Miniconda](https://docs.conda.io/en/latest/miniconda.html)). <br>
+Download and configure the larger reference files (requires [Miniconda](https://docs.conda.io/en/latest/miniconda.html)). <br><br>
 Command line arguments:
-- `-r` = path to reference directory
-- `-m` = miRBase abbreviation
-- `-g` = genome abbreviation. Example shown for mouse:
+    - `-r` = path to reference directory
+    - `-m` = miRBase abbreviation
+    - `-g` = genome abbreviation.
+
+Example shown for mouse:
 
     bash PACeR_New/reference_installation.sh -r /media/sf_Ubuntu_Sharing_2022/PACeR_New -m mmu -g mm10
 
