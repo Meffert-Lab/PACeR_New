@@ -35,7 +35,7 @@ Download and configure the larger reference files (requires [Miniconda](https://
 Command line arguments:
     - `-r` = path to reference directory
     - `-m` = miRBase abbreviation
-    - `-g` = genome abbreviation.
+    - `-g` = genome abbreviation
 
 Example shown for mouse:
 
