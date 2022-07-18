@@ -41,7 +41,7 @@ Example shown for mouse:
 
     bash PACeR_New/reference_installation.sh -r /media/sf_Ubuntu_Sharing_2022/PACeR_New -m mmu -g mm10
 
-## Usage
+## Running PACeR
 
 Ensure data files are in the following configuration
 
