@@ -1,0 +1,5 @@
+hg19	https://genome-idx.s3.amazonaws.com/hisat/hg19_genome.tar.gz
+mm10	https://genome-idx.s3.amazonaws.com/hisat/mm10_genome.tar.gz
+rn6	https://genome-idx.s3.amazonaws.com/hisat/rn6_genome.tar.gz
+dm6	https://genome-idx.s3.amazonaws.com/hisat/dm6.tar.gz
+ce10	https://cloud.biohpc.swmed.edu/index.php/s/bbynxoY2TPpRNQb/download		ce10 folder	genome.X.ht2
