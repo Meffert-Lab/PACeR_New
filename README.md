@@ -20,6 +20,7 @@ Once in the directory where you would like the PACeR files (XX MB) to be install
 
 Create the Conda environment by running:
 
+    conda config --append channels conda-forge
     conda env create -f PACeR_New/environment.yml -n PACeR
 
 Reference files for common model organisms can be easily configured using their abbreviations. Model organisms not listed here will require manual indexing of the reference genome (see `hisat2_index.sh` in Supplemental folder).
