@@ -15,6 +15,7 @@
 
 Once in the directory where you would like the PACeR files (XX MB) to be installed, run:
 
+    sudo apt install git
     git clone https://github.com/Meffert-Lab/PACeR_New.git
 
 Create the Conda environment by running:
